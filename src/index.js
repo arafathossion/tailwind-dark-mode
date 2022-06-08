@@ -4,16 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './Components/ThemeContext';
+import Navbar from './Components/Navbar';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className="bg-white dark:bg-teal-500 transition-all">
-        <main>
-          <App />
-        </main>
-      </body>
+      <div className="bg-white dark:bg-teal-500 transition-all">
+        <Navbar />
+        <App />
+      </div>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
