@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './Components/ThemeContext';
-import Navbar from './Components/Navbar';
+
 
 ReactDOM.render(
   <React.StrictMode>
