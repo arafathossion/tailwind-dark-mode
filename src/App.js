@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <h1 className="text-3xl font-bold underline dark:text-red-500">
+        Hello world!
+      </h1>
+      <p className='dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, temporibus harum? Omnis quas itaque facere officiis voluptas veritatis sed, atque voluptatum reiciendis laborum eligendi explicabo voluptates? Voluptatum labore neque mollitia quibusdam, earum excepturi saepe ex, fuga at illo commodi ipsa quae velit aliquam praesentium, laborum libero culpa! Asperiores modi sequi veniam! Quidem neque hic, laborum voluptas nesciunt maxime excepturi libero numquam debitis dignissimos quasi, qui deleniti nostrum iure porro fuga cupiditate magni mollitia minus natus sequi dolore, a necessitatibus! Neque optio dicta natus quos doloremque minima suscipit, dolores nemo nihil asperiores facilis. Aliquam amet suscipit voluptas quos error a velit rerum numquam quaerat at. Debitis nihil corrupti perferendis nobis eius similique delectus, aliquid odit, molestiae labore ea quibusdam quod, amet non possimus rerum tempore. Reprehenderit repellendus, libero nesciunt repellat, animi saepe nisi iusto nulla odit voluptatum corporis delectus maxime, natus veniam dolor! Animi inventore quam aperiam repellat recusandae quibusdam labore exercitationem? Id saepe tempora ut culpa expedita beatae quisquam alias, blanditiis at distinctio voluptatibus excepturi, aut molestiae vero, natus necessitatibus ducimus vitae. Molestias doloremque quisquam dolor delectus consequatur! In, aspernatur, beatae itaque ducimus atque odit illo, enim asperiores officia sapiente nisi culpa. Quo, vitae. Cum quasi suscipit mollitia rem dolor aut, ipsa vitae nihil quaerat laboriosam, illum iure dignissimos libero architecto corrupti, optio accusantium odit omnis nesciunt ut. Laboriosam mollitia est esse autem omnis delectus laudantium nobis, nemo ut perspiciatis expedita ad consequuntur neque rem, tempora fuga amet minus quas ipsa quae, similique animi eveniet accusamus corporis! Recusandae, voluptas. Alias similique dolores architecto earum neque quaerat fugit quas vero odio eum ex autem modi quae cum rem ipsam, repellat voluptatem possimus corporis tempora. Illo consequuntur vel animi unde quo quaerat ipsa, deleniti doloremque, illum, obcaecati harum autem in dolores velit! Voluptatem, doloremque provident? Voluptatum ad quibusdam, consequuntur quaerat id distinctio minus, eum numquam rem accusantium reiciendis? Placeat deleniti ea, necessitatibus aliquid ut explicabo non consectetur maiores voluptatum possimus repellat esse impedit asperiores sed distinctio alias quasi officia natus nihil omnis maxime praesentium. Nihil laboriosam rerum odit molestiae voluptatem laudantium porro deserunt harum saepe. Cumque quod iure ut dolorem possimus dolores dolorum aspernatur aliquam eveniet laboriosam, est illum sequi dignissimos fugit corrupti in quam harum maiores minus ea sit reiciendis autem. Culpa qui provident, itaque id facere voluptatibus dolores in maiores laboriosam necessitatibus libero enim praesentium quasi tempora! Numquam voluptate inventore alias a architecto nesciunt iure, laudantium nulla! Molestiae eveniet, est quis voluptates eius veniam fugit rem quas atque corporis facere itaque repudiandae minima, dolorem cupiditate deleniti nostrum soluta! Commodi autem exercitationem reiciendis eum officia asperiores facilis consequuntur? Asperiores iste quam quidem commodi. Nisi praesentium molestiae doloremque? Itaque fuga laborum aliquam aperiam? Rerum minima quae possimus ipsam sunt fugiat quo sint iste explicabo asperiores quos dolore excepturi a, eaque neque magni maxime iure dolorum qui repellendus sapiente eligendi cupiditate reprehenderit! Repudiandae vero saepe eaque, minima architecto rem in eligendi, officia minus, itaque ipsa dicta non nemo. Unde laboriosam temporibus est iste cupiditate. Soluta autem quod libero veniam alias nobis hic, nulla odit quasi deleniti! Accusamus rerum maxime hic. Fuga similique earum amet vero ipsum aliquam. Id nulla earum nobis ipsum ullam aspernatur alias molestias deserunt dicta optio, incidunt aliquid ducimus distinctio culpa, fuga, corporis architecto consequatur voluptatum quod obcaecati consectetur rem eveniet? Explicabo, autem. Molestiae similique nemo ducimus perferendis dolores, dignissimos cum sint earum adipisci dolorum laudantium vel, ex maxime obcaecati asperiores in eos perspiciatis ipsum error maiores! Delectus at qui provident voluptatum ullam cupiditate quaerat dolore commodi sed beatae aut accusantium numquam magni, perferendis aliquid dolores. Dolorem adipisci dolorum minus, natus quos qui deserunt unde est in delectus officia impedit!</p>
     </div>
   );
 }
